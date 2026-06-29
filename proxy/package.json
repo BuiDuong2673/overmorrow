@@ -1,0 +1,11 @@
+{
+  "name": "overmorrow-proxy",
+  "version": "1.0.0",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

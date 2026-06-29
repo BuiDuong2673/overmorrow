@@ -1,0 +1,5 @@
+# Secrets — never include real keys
+.env
+.env.setup
+.env.llm-token
+lib/api_key.dart

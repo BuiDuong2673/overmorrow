@@ -1,0 +1,7 @@
+FROM node:20-alpine
+WORKDIR /app
+COPY proxy/package.json .
+RUN npm install --omit=dev
+COPY proxy/server.js .
+EXPOSE 3000
+CMD ["node", "server.js"]
